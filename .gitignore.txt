@@ -1,0 +1,10 @@
+# Ignore the Streamlit secrets folder
+.streamlit/
+
+# Ignore Python virtual environment folders
+venv/
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
