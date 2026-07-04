@@ -2,6 +2,10 @@
 
 A tool that converts natural language text prompts into functional HTML/CSS UI components using Google's Gemini API and Streamlit.
 
+## 🚀 Live Demo
+
+https://text-to-ui-generator-rfavk2g9zp2dtmanpq7ruj.streamlit.app/
+
 ## Setup and Installation
 
 To run this project locally, follow these steps:
