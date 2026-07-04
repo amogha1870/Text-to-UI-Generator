@@ -20,7 +20,7 @@ def get_gemini_response(user_description, prompt):
     Sends the user's description and a system prompt to Gemini
     """
   
-    model = genai.GenerativeModel('gemini-1.5-flash-latest') 
+    model = genai.GenerativeModel("gemini-2.5-flash")
     
     full_prompt = f"{prompt}\n\nHere is the user's description of the UI:\n\n{user_description}"
     response = model.generate_content(full_prompt)
